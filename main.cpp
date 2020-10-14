@@ -5,15 +5,11 @@
 
 #include "mac.h"
 #include "ip.h"
-
 #include <unistd.h>
 #include <sys/ioctl.h> 
 #include <sys/socket.h>
 #include <arpa/inet.h>
 #include <net/if.h>
-
-//#include <net/if_arp.h>
-//#include <stdlib.h>
 
 
 #pragma pack(push, 1)
